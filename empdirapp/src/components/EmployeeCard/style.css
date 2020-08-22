@@ -1,0 +1,49 @@
+.card {
+  background: #fff;
+  border-radius: 2px;
+  height: 325px;
+  margin: 1rem;
+  position: relative;
+  width: 100%;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  text-align: left;
+  background: lightsteelblue;
+}
+
+.card > .img-container {
+  height: 65%;
+  overflow: hidden;
+  text-align: center;
+  background:#6CADDC;
+}
+.card > .img-container > img {
+  width: 10%
+}
+
+.card > .content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 15px;
+  text-align: center;
+}
+
+.card > .content > table> tr > th > td {
+  margin-top: 18px;
+}
+
+table > th {
+  font-style: Arial;
+}
+
+.card > .remove {
+  color: #ff1744;
+  font-size: 48px;
+  position: absolute;
+  top: -20px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.card > .remove:hover {
+  color: #d50000;
+}
